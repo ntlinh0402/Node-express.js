@@ -1,0 +1,33 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ntlinh0402/Node-express.js.git"
+  },
+  "keywords": [
+    "node.js",
+    "express.js",
+    "f8"
+  ],
+  "author": "Nguyen Thuy Linh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ntlinh0402/Node-express.js/issues"
+  },
+  "homepage": "https://github.com/ntlinh0402/Node-express.js#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "express-handlebars": "^6.0.2"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.15"
+  },
+  "description": ""
+}
